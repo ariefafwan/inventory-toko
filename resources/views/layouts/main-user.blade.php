@@ -62,13 +62,13 @@
 
 <body>
     <!-- Content -->
-    @include('layouts.partial.nav-admin')
+    @include('layouts.partial.navbar')
 
     <div class="container-fluid">
         <div class="row">
             <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse"
                 style="background-color: #ffffff;">
-                @include('layouts.partial.side-admin')
+                @include('layouts.partial.sidebar')
             </nav>
             <main class="col-md-9 ml-sm-auto col-lg-10 px-md-4 py-4">
                 <nav aria-label="breadcrumb">
@@ -78,7 +78,7 @@
                     </ol>
                     <h1 class="h2"></h1>
                 </nav>
-                @yield('body')
+                @yield('user')
             </main>
         </div>
     </div>
