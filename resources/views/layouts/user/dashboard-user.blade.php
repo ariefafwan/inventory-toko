@@ -1,6 +1,6 @@
-@extends('layouts.main')
+@extends('layouts.main-user')
 
-@section('body')
+@section('user')
 
     <hr>
 
